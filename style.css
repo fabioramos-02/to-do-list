@@ -14,12 +14,12 @@ body {
     height: 100vh;
 }
 
-.container p {
-    text-align: center;
-    margin-bottom: 15px;
-    font-size: 14px;
-    color: #666;
-    line-height: 1.4;
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -71,6 +71,19 @@ li span {
     flex-grow: 1;
 }
 
+.edit-btn {
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #ec971f;
+}
+
 .delete-btn {
     background-color: red;
     color: white;
@@ -84,6 +97,7 @@ li span {
     background-color: #d9534f;
 }
 
+/* Estilo básico do modal */
 .modal {
     display: none;
     position: fixed;
